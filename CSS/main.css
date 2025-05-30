@@ -1,8 +1,12 @@
 @font-face {
     font-family: GlacialIndifference;
-    src: url('GlacialIndifference-Bold.otf');
+    src: url('/Fonts/GlacialIndifference-Bold.otf');
+
+    font-family: Yeseva;
+    src: url('/Fonts/YesevaOne-Regular.ttf');
 }
 
 h1{
     font-family: GlacialIndifference;
+
 }
