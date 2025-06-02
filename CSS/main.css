@@ -1,11 +1,34 @@
 @font-face {
-    font-family: GlacialIndifference;
+    font-family: Glacial;
     src: url('/Fonts/GlacialIndifference-Bold.otf');
-
+}
+@font-face{
     font-family: Yeseva;
     src: url('/Fonts/YesevaOne-Regular.ttf');
 }
 
+html, body{
+    padding: 0;
+    margin: 0;
+}
 h1{
-    font-family: GlacialIndifference;
+    font-family: Glacial;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ff6700;
+    height: 104px;
+}
+hr{
+    border-top: #3a6ea5 dotted 4px;
+    width: 40%;
+    margin-left: 100px;
+}
+.title{
+    font-size: 4em;
+    color: #ebebeb;
+    text-shadow: -4px 4px #c0c0c0;
+    padding-left: 25px;
+    padding-top: 10px;
 }
