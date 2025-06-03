@@ -1,41 +1,40 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Online Portfolio</title>
+            <title>Online Portfolio: Home</title>
             <link rel="stylesheet" href="CSS/main.css">
         </head>
         <body>
             <header> <!--#ff6700-->
                 <h1 class= "title">ONLINE PORTFOLIO</h1>
                     <nav>
-                        <a href="/Other Pages/experiences.html">experiences</a>
-                        <a href="/Other Pages/certs.html">certifications</a>
-                        <a href="Other Pages/about.html">about me</a>
-                        <a href="Other Pages/contact.html">contact me</a>
-                        <a href="Other Pages/resume.html">résumé</a>
+                        <a class="navButton" href="/Other Pages/experiences.html">experiences</a>
+                        <a class="navButton" href="/Other Pages/certs.html">certifications</a>
+                        <a class="navButton" href="Other Pages/about.html">about me</a>
+                        <a class="navButton" href="Other Pages/contact.html">contact me</a>
+                        <a class="navButton" href="Other Pages/resume.html">résumé</a>
                     </nav>
                 <hr> <!-- dotted line 1/2 thru page-->
             </header>
 
             <section> <!--half of page, #004e98-->
-                <h3>Hello! I am </h3> <!--text is #ebebeb-->
+                <h3 class="smallText">Hello! I am </h3> <!--text is #ebebeb-->
                 <br>
-                <h2>LORILEI FORBEAR,</h2> <!--shadow is #3a6ea5-->
-                <h3>a</h3>
+                <h2 id="shadowText">LORILEI <br> FORBEAR,</h2> <!--shadow is #3a6ea5-->
+                <h3 class="smallText">a</h3>
                 <ul>
-                    <li>WEB DEVELOPER.</li>
-                    <li>SOFTWARE DEVELOPER.</li>
-                    <li>GAME DEVELPOER.</li>
-                    <li>ASSET DESIGNER.</li>
+                    <li class="smallText">WEB DEVELOPER.</li>
+                    <li class="smallText">SOFTWARE DEVELOPER.</li>
+                    <li class="smallText">GAME DEVELPOER.</li>
+                    <li class="smallText">ASSET DESIGNER.</li>
                 </ul>
-            </section> <!--other half of page, #c0c0c0-->
-            <div class="profilePicture">
-                <img src="Images/twelvePointStar.png" alt="twelve pointed star">
-                <img src="Images/circle.png" alt="circle">
+            </section> 
+
+            <section id="profilePicture"><!--other half of page, #c0c0c0-->
+           <div id="frame">
+                <img id="circle" src="Images/circle.png" alt="circle">
+                <img id="star" src="Images/twelvePointStar.png" alt="twelve pointed star">
             </div>
-
-            <section>
-
             </section>
         </body>
     </html>
