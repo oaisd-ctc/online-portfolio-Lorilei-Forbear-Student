@@ -162,3 +162,32 @@ a:hover{
     position: absolute;
     top: 650px;
 }
+
+#certGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-left: 10%;
+
+}
+
+.certItem{
+    background-color: #c0c0c0;
+    width: 600px;
+    margin-bottom: 10%;
+    border-radius: 25px;
+    justify-content: right;
+}
+p{
+    color: #3a6ea5;
+    font-family: Glacial;
+}
+
+.certImg{
+    border-radius: 25px;
+    position: relative;
+    left: 300px;
+    width: 200px;
+}
