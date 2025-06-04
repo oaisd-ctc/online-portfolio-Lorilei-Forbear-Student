@@ -210,3 +210,10 @@ p{
     top: 425px;
     right: 925px;
 }
+
+.contact{
+    color: #ebebeb;
+    font-family: Glacial;
+    text-align: center;
+    padding-top: 20px;
+}
