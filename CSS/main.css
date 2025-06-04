@@ -189,5 +189,24 @@ p{
     border-radius: 25px;
     position: relative;
     left: 300px;
-    width: 200px;
+    width: 300px;
+}
+
+#circle2{
+    width: 300px;
+    position: absolute;
+    top: 350px;
+    right: 850px;
+}
+#star2{
+    width: 235px;
+    position: absolute;
+    top: 380px;
+    right: 880px;
+}
+#me2{
+    width: 150px;
+    position: absolute;
+    top: 425px;
+    right: 925px;
 }
